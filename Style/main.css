@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+
+:root{
+    --cor-background: #000000;
+    --cor-secundaria: white;
+    --fonte-primaria: Impact, sans-serif;
+    --fonte-secundaria: "Freeman", sans-serif;
+
+}
+
+body{
+    background-color: var(--cor-background);
+}
+
+header{
+    height: 100px;
+    border-style: solid;
+    border-color: var(--cor-secundaria);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
+}
+
+.logoheader{
+    margin-left: 100px;
+}
+
+footer{
+    height: 100px;
+    border-style: solid;
+    border-color: var(--cor-secundaria);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logofooter{
+    text-align: center;
+    margin-top: 10px;
+}
+
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.banner{
+    width: 100%;
+}
+
+.titulo{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.testdrive{
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  
+  .box {
+    width: 200px;
+  }
+  
+  span{
+    display: block;
+    padding: 5px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+  }
+  
+
+.galeria{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+}
+
+.video{
+    width: 100%;
+}
+
+.contato{
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+}
+
+.galleria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.item {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.item img {
+    width: 500px;
+    height: 200px;
+    display: block;
+    border-radius: 5px;
+}
+
+.item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.descricao{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+}
